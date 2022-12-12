@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(180deg, rgb(122, 149, 149), rgb(64, 100, 100));
+    color: rgb(68, 68, 68);
+}
+
+header{
+    position: static;
+} 
+nav a{
+    background-color: rgb(122, 149, 149);
+    box-shadow: none;
+    color: rgb(255, 251, 0);
+    text-shadow: 2px 4px 8px black;
+}
+nav a:hover{
+    text-shadow: none;
+}
+
+main ul{
+    width: 1000px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+   
+}
+
+main li{
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4PX rgb(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+height: 280px;
+}
+
+main li img{
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+main li:nth-of-type(3){
+    grid-column: 1/span 2;
+    
+}
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-content h2{
+    margin: 0;
+}
+
+.actions{
+    text-align: right;
+}
+.actions a{
+    text-decoration: none;
+        color: rgb(22, 211, 228);
+        font-weight: 700;
+        padding: 6px;
+        border-radius: 5px;
+        
+}
+.actions a:hover {
+    background-color: rgb(235, 253, 255);
+}
+footer{
+    background: linear-gradient(180deg, rgb(64, 100, 100), rgb(1, 12, 12));
+}
