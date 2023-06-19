@@ -13,7 +13,7 @@ To run this project locally, follow these steps:
 
 ## Live Demo 
 
-  - <a href="https://melybee-07.github.io/travel-page/"></a>
+  - <a href="https://melybee-07.github.io/travel-page/">Live Demo</a>
   
 
 ## Prerequisites
